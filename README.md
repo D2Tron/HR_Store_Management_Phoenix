@@ -16,11 +16,11 @@ To run both servers simultaneously, follow these steps:
 2. In one terminal, start the first server (employees management) using:
    ```bash
    mix phx.server
-   This will run on `localhost:3000`.
+This will run on `localhost:3000`.
 
 3. In another terminal, start the second server (stores and products management) using:
    ```bash
    mix phx.server
-   This will run on `localhost:4000`.
+This will run on `localhost:4000`.
 
 Both servers are interconnected, with one allowing full CRUD operations on employees, and the other using employees in a read-only format while managing stores and products.
